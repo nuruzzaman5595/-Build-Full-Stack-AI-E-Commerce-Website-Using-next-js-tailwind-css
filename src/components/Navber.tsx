@@ -1,4 +1,10 @@
-const navItems = ["Home", "Shop", "Collections", "About", "Contact"];
+const navItems = [
+  { label: "Home", href: "/" },
+  { label: "Shop", href: "/card" },
+  { label: "Collections", href: "/projects" },
+  { label: "About", href: "/about" },
+  { label: "Contact", href: "/contact" },
+];
 
 const Navber = () => {
   return (
@@ -17,11 +23,11 @@ const Navber = () => {
         <nav className="hidden items-center gap-8 md:flex">
           {navItems.map((item) => (
             <a
-              key={item}
-              href="#"
+              key={item.label}
+              href={item.href}
               className="text-sm font-medium text-slate-600 transition hover:text-slate-900"
             >
-              {item}
+              {item.label}
             </a>
           ))}
         </nav>
