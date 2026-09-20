@@ -9,7 +9,7 @@ const categories = [
 export default function Home() {
   return (
     <main className="bg-[#f8f5f0]">
-      <section className="mx-auto grid min-h-[620px] max-w-7xl items-center gap-12 px-6 py-16 sm:px-10 lg:grid-cols-[1.05fr_0.95fr] lg:px-8 lg:py-20">
+      <section className="mx-auto grid min-h-155px max-w-7xl items-center gap-12 px-6 py-16 sm:px-10 lg:grid-cols-[1.05fr_0.95fr] lg:px-8 lg:py-20">
         <div className="max-w-2xl">
           <p className="mb-5 text-xs font-semibold uppercase tracking-[0.3em] text-amber-700">
             The considered collection
@@ -41,10 +41,10 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="relative min-h-[420px] overflow-hidden rounded-[2rem] bg-slate-900 p-6 text-white sm:p-10">
-          <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full border-[32px] border-amber-600/80" />
-          <div className="absolute -bottom-24 -left-20 h-72 w-72 rounded-full border-[48px] border-stone-200/20" />
-          <div className="relative flex h-full min-h-[370px] flex-col justify-between">
+        <div className="relative min-h-105px overflow-hidden rounded-4xl bg-slate-900 p-6 text-white sm:p-10">
+          <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full border-32px border-amber-600/80" />
+          <div className="absolute -bottom-24 -left-20 h-72 w-72 rounded-full border-48px border-stone-200/20" />
+          <div className="relative flex h-full min-h-92.5px flex-col justify-between">
             <span className="text-xs font-semibold uppercase tracking-[0.25em] text-amber-300">
               New perspective
             </span>

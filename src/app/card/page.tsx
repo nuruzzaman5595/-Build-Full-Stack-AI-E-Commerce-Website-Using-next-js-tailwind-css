@@ -61,7 +61,7 @@ export default function CardPage() {
   return (
     <main className="min-h-screen bg-[#f8f5f0] px-6 py-10 text-slate-900 md:px-8 lg:px-10">
       <div className="mx-auto max-w-7xl">
-        <header className="flex flex-col gap-6 rounded-[2rem] bg-gradient-to-r from-slate-900 via-slate-800 to-amber-900 px-6 py-8 text-white shadow-[0_20px_50px_rgba(15,23,42,0.22)] md:px-10 lg:flex-row lg:items-end lg:justify-between">
+        <header className="flex flex-col gap-6 rounded-4xl bg-linear-90-to-r from-slate-900 via-slate-800 to-amber-900 px-6 py-8 text-white shadow-[0_20px_50px_rgba(15,23,42,0.22)] md:px-10 lg:flex-row lg:items-end lg:justify-between">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.28em] text-amber-200">Shop now</p>
             <h1 className="mt-3 text-3xl font-black tracking-tight md:text-5xl">Featured essentials</h1>
@@ -92,7 +92,7 @@ export default function CardPage() {
           {products.map((product) => (
             <article
               key={product.name}
-              className="group overflow-hidden rounded-[2rem] border border-slate-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl"
+              className="group overflow-hidden rounded-4xl border border-slate-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl"
             >
               <div className="relative overflow-hidden bg-slate-100 p-4">
                 <div className="flex items-center justify-between">
@@ -104,7 +104,7 @@ export default function CardPage() {
                   </button>
                 </div>
 
-                <div className="mt-4 flex h-56 items-end justify-center rounded-[1.5rem] bg-gradient-to-br from-slate-100 to-stone-200 p-4">
+                <div className="mt-4 flex h-56 items-end justify-center rounded-3xl bg-linear-60-to-br from-slate-100 to-stone-200 p-4">
                   <div className="flex items-end gap-3">
                     <div className={`h-20 w-12 rounded-t-2xl ${product.colors[0]} shadow-lg`} />
                     <div className={`h-28 w-16 rounded-t-2xl ${product.colors[1]} shadow-lg`} />

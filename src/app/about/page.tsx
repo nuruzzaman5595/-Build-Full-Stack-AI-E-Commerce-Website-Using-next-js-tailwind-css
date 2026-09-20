@@ -92,14 +92,14 @@ export default function AboutPage() {
                   </span>
                 </div>
 
-                <div className="mt-12 h-64 rounded-3xl bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.3),_transparent_40%),linear-gradient(135deg,_rgba(255,255,255,0.15),_rgba(255,255,255,0.02))] p-5">
+                <div className="mt-12 h-64 rounded-3xl bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.3),transparent_40%),linear-gradient(135deg,rgba(255,255,255,0.15),rgba(255,255,255,0.02))] p-5">
                   <div className="flex h-full items-end justify-between">
                     <div className="space-y-3">
                       <div className="h-14 w-14 rounded-2xl bg-amber-300/80" />
-                      <div className="h-20 w-20 rounded-[1.5rem] bg-white/20" />
+                      <div className="h-20 w-20 rounded-3xl bg-white/20" />
                     </div>
                     <div className="flex flex-col items-center gap-2">
-                      <div className="h-32 w-20 rounded-[2rem] bg-gradient-to-b from-amber-100 via-amber-300 to-amber-500 shadow-2xl" />
+                      <div className="h-32 w-20 rounded-4xl bg-linear-to-b from-amber-100 via-amber-300 to-amber-500 shadow-2xl" />
                       <div className="h-10 w-32 rounded-full bg-white/15" />
                     </div>
                   </div>
@@ -161,7 +161,7 @@ export default function AboutPage() {
 
       <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
         <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
-          <div className="rounded-[2rem] bg-gradient-to-br from-amber-100 via-white to-rose-100 p-8 shadow-sm">
+          <div className="rounded-4xl bg-linear-to-br from-amber-100 via-white to-rose-100 p-8 shadow-sm">
             <p className="text-sm font-semibold uppercase tracking-[0.24em] text-amber-700">Why shoppers stay</p>
             <h3 className="mt-4 text-3xl font-black text-slate-900">A retail experience designed around trust.</h3>
             <ul className="mt-8 space-y-4">
@@ -177,21 +177,21 @@ export default function AboutPage() {
           </div>
 
           <div className="grid gap-6 sm:grid-cols-2">
-            <div className="rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm">
+            <div className="rounded-4xl border border-slate-200 bg-white p-6 shadow-sm">
               <p className="text-sm uppercase tracking-[0.2em] text-slate-500">Mission</p>
               <h4 className="mt-4 text-2xl font-bold text-slate-900">Helpful shopping, not overwhelming choices.</h4>
               <p className="mt-4 text-slate-600">
                 We simplify discovery with standout products and clear guidance that helps people buy with confidence.
               </p>
             </div>
-            <div className="rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm">
+            <div className="rounded-4xl border border-slate-200 bg-white p-6 shadow-sm">
               <p className="text-sm uppercase tracking-[0.2em] text-slate-500">Vision</p>
               <h4 className="mt-4 text-2xl font-bold text-slate-900">A store that feels as good as the products it sells.</h4>
               <p className="mt-4 text-slate-600">
                 We aim to set a new standard for online retail by combining beauty, utility, and service.
               </p>
             </div>
-            <div className="rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm sm:col-span-2">
+            <div className="rounded-4xl border border-slate-200 bg-white p-6 shadow-sm sm:col-span-2">
               <p className="text-sm uppercase tracking-[0.2em] text-slate-500">Community</p>
               <h4 className="mt-4 text-2xl font-bold text-slate-900">Made for real homes, real routines, and real moments.</h4>
               <p className="mt-4 text-slate-600">
@@ -204,7 +204,7 @@ export default function AboutPage() {
 
       <section className="mx-auto max-w-7xl px-6 pb-24 lg:px-8">
         <div className="rounded-[2.5rem] bg-slate-900 px-8 py-12 text-center text-white shadow-[0_30px_80px_rgba(15,23,42,0.18)] md:px-12">
-          <p className="text-sm font-semibold uppercase tracking-[0.26em] text-amber-300">Let’s build better habits</p>
+          <p className="text-sm font-semibold uppercase tracking-[0.26em] text-amber-300">Lets build better habits</p>
           <h2 className="mt-4 text-3xl font-black tracking-tight md:text-5xl">
             Discover products that fit your life beautifully.
           </h2>
