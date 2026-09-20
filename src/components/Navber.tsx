@@ -1,9 +1,10 @@
 const navItems = [
   { label: "Home", href: "/" },
   { label: "Shop", href: "/card" },
-  { label: "Collections", href: "/projects" },
+  { label: "Collections", href: "/collections" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
+  { label: "Login", href: "/login" },
 ];
 
 const Navber = () => {
@@ -30,8 +31,7 @@ const Navber = () => {
               {item.label}
             </a>
           ))}
-        </nav>
-
+           </nav>
         <div className="flex items-center gap-3">
           <button className="hidden rounded-full border border-slate-200 px-4 py-2 text-sm font-medium text-slate-700 transition hover:border-slate-300 sm:inline-flex">
             Search
